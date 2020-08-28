@@ -1,0 +1,15 @@
+<!--tabs/tabs.wxml-->
+<view class="tabs">
+<view class="tabs_title">
+
+<!-- <view class="title-item active">首页</view>
+<view class="title-item">原创</view>
+<view class="title-item">分类</view>
+<view class="title-item">关于</view> -->
+<view wx:for="{{tabs}}" wx:key="id" 
+class="title-item {{item.isActive?'active':''}}"
+bindtap="handletap" data-index="{{index}}">{{item.name}}</view>
+</view>
+<view class="tabs-content">内容</view>
+</view>
+<view >{{tabs}}</view>
