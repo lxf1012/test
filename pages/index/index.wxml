@@ -24,4 +24,4 @@ bindtap="">{{item.name}}</view>
     2 子组件向父组件传递数据 通过事件的方式传递
       1 在子组件的标签上加入一个自定义事件
  -->
- <tabs tabs="{{tabs}}" binditemChange="handleItemChange"></tabs>
+ <!-- <tabs tabs="{{tabs}}" binditemChange="handleItemChange"></tabs> -->
