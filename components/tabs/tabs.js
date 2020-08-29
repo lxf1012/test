@@ -13,8 +13,8 @@ Component({
     //   value: ""
     // }
     tabs:{
-      type: Array,
-      value: []
+      type:Array,
+      value:[]
     }
   },
 
@@ -64,7 +64,7 @@ Component({
     //  获取索引
     // console.log(e)
     const {index} =e.currentTarget.dataset;
-    this.triggerEvent("itemChange",{index})
+    this.triggerEvent("itemChange",{index});
     // 3 获取data中的数组
     // 解构 就是对复杂类型进行解构的时候，复制了一份变量的应用
     // 最严谨的做法 重新拷贝一份数组 再对这个数组的备份进行处理，
